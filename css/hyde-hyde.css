@@ -213,7 +213,7 @@ a {
       text-decoration: none; }
   a:hover {
     color: #515151;
-    border-bottom: 1px dotted #bbb;
+    //border-bottom: 1px dotted #bbb;
     text-decoration: none;
     background: transparent;
     background-color: transparent;
