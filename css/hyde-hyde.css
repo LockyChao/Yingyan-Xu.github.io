@@ -233,15 +233,15 @@ a {
   background-color: #300030;
   color: white;
   color: rgba(255, 255, 255, 0.5);
-  padding: 2rem 1rem;
+  padding: 6rem 1rem;
   text-align: center; }
   .sidebar a {
-    color: #f9f9f9;
+    color: #dddddd;
     border: none; }
     .sidebar a:hover {
-      color: #268bd2; }
+      color: #ffffff; }
     .sidebar a:focus {
-      color: #268bd2; }
+      color: #ffffff; }
   .sidebar .sidebar-about {
     text-align: center; }
   .sidebar .author-image {
@@ -252,8 +252,9 @@ a {
   text-align: center;
   list-style: none;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-  padding-left: 0; }
+  margin-top: 3rem;
+  padding-left: 0; 
+  line-height: 2.3; }
 
 .sidebar-nav-item {
   display: block;
@@ -268,7 +269,7 @@ a {
     border: none; }
 
 .site__description {
-  font-size: 1.285rem;
+  font-size: 2rem;
   font-weight: 300; }
 
 .social {
@@ -295,7 +296,7 @@ a {
   font-size: 2.15rem; }
 
 .post-list__item {
-  margin-bottom: 3em; }
+  margin-bottom: 7em; }
 
 .item__title--big {
   display: block;
@@ -612,9 +613,9 @@ a.badge-tag {
   body {
     font-size: 18px; }
   .content {
-    margin-left: 20rem;
+    margin-left: 23rem;
     margin-right: 2rem;
-    max-width: 38rem; }
+    max-width: 55rem; }
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem; }

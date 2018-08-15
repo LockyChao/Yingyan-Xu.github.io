@@ -2,53 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://Yingyan-Xu.github.io/</link>
+    <link>https://yingyan-xu.github.io/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Aug 2018 23:52:44 +0800</lastBuildDate>
     
-	<atom:link href="https://Yingyan-Xu.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yingyan-xu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ABOUT</title>
-      <link>https://Yingyan-Xu.github.io/post/about/</link>
+      <link>https://yingyan-xu.github.io/post/about/</link>
       <pubDate>Mon, 13 Aug 2018 23:52:44 +0800</pubDate>
       
-      <guid>https://Yingyan-Xu.github.io/post/about/</guid>
+      <guid>https://yingyan-xu.github.io/post/about/</guid>
       <description>I am a third year undergraduate student in Department of Automation, Shanghai Jiao Tong University, expecting to graduate in June 2019.
 My research interests include video analysis, robotic vision and general problems in computer vision. My current work focuses on dense detailed multi-label action detection tasks in untrimmed videos.</description>
     </item>
     
     <item>
       <title>EDUCATION</title>
-      <link>https://Yingyan-Xu.github.io/post/education/</link>
+      <link>https://yingyan-xu.github.io/post/education/</link>
       <pubDate>Mon, 13 Aug 2018 00:07:11 +0800</pubDate>
       
-      <guid>https://Yingyan-Xu.github.io/post/education/</guid>
-      <description> SHANGHAI JIAO TONG UNIVERSITY Sept. 2015 - Present 
- Major in Automation, School of Electronic Information and Electrical Engineering Average Score: 90.4 / 100 Rank: 3 / 91
+      <guid>https://yingyan-xu.github.io/post/education/</guid>
+      <description> SHANGHAI JIAO TONG UNIVERSITY  Major in Automation, School of Electronic Information and Electrical Engineering Average Score: 90.4 / 100 Rank: 3 / 91
   </description>
     </item>
     
     <item>
       <title>INTERNSHIP</title>
-      <link>https://Yingyan-Xu.github.io/post/internship/</link>
+      <link>https://yingyan-xu.github.io/post/internship/</link>
       <pubDate>Sun, 12 Aug 2018 00:20:22 +0800</pubDate>
       
-      <guid>https://Yingyan-Xu.github.io/post/internship/</guid>
-      <description>HIKVISION RESEARCH INSTITUTE Research Intern, Intelligent Algorithm Department  July. 2018 - Present
+      <guid>https://yingyan-xu.github.io/post/internship/</guid>
+      <description>HIKVISION RESEARCH INSTITUTE Research Intern, Intelligent Algorithm Department
 Over the last few years, while excellent results have been achieved in the field of static image understanding, there is still a long way to go for video understanding. I’m interested in this challenging topic and particularly interested in human activity detection tasks. I have done some related research work, listed as follows:
  Examined large-scale video datasets which depict a variety of complex human activities in untrimmed videos, including Charades, THUMOS and MultiTHUMOS.</description>
     </item>
     
     <item>
       <title>PROJECTS</title>
-      <link>https://Yingyan-Xu.github.io/post/projects/</link>
+      <link>https://yingyan-xu.github.io/post/projects/</link>
       <pubDate>Sat, 11 Aug 2018 00:24:06 +0800</pubDate>
       
-      <guid>https://Yingyan-Xu.github.io/post/projects/</guid>
+      <guid>https://yingyan-xu.github.io/post/projects/</guid>
       <description>Obstacle Detection for Vision Based Navigation Autonomous Robot Lab, SJTU
 Detecting the obstacles accurately and reliably is important for navigating the robot or autonomous vehicle. The latest sensor technologies and computer vision plays a key role in making this pragmatically realizable. Deep Neural Networks like Convolutional Neural Network (CNN) are widely used for object detection and segmentation algorithms.
  Used the SegNet encoder-decoder architecture for pixel-wise semantic segmentation of the video frame.</description>
@@ -56,10 +55,10 @@ Detecting the obstacles accurately and reliably is important for navigating the 
     
     <item>
       <title>COURSEWORK</title>
-      <link>https://Yingyan-Xu.github.io/post/coursework/</link>
+      <link>https://yingyan-xu.github.io/post/coursework/</link>
       <pubDate>Fri, 10 Aug 2018 00:26:28 +0800</pubDate>
       
-      <guid>https://Yingyan-Xu.github.io/post/coursework/</guid>
+      <guid>https://yingyan-xu.github.io/post/coursework/</guid>
       <description> UPCOMING COURSES   AU419 Computer Networking Fall 2018 SJTU   AU422 Operation Systems Fall 2018 SJTU   CS400 Database Fall 2018 SJTU   COMPLETED COURSES   CS430 Data Structure 100 SJTU   CS048 C++ Programing 98 SJTU   CS331 Computer Control Technology  100 SJTU   AU416 Robotics 97 SJTU   AU310 Motion Control Systems 95 SJTU   AU326 Digital Image Processing 90 SJTU   AU311 Pattern Recognition 90 SJTU   EI304 Principles of Automatic Control 92 SJTU   MA119 Probability and Statistics 90 SJTU   MA043 Mathematical Analysis 93 SJTU   MA115 Discrete Mathematics 88 SJTU   MA077 Linear Algebra 87 SJTU   AU302 Modern Control Theory 98 SJTU   AU308 Digital Signal Processing 97 SJTU   EE213 Embedded Systems 98 SJTU   PH002 Physics 97 SJTU   ONLINE COURSES   Deep Learning Summer 2018 Coursera   </description>
     </item>
     
