@@ -106,7 +106,7 @@
 		 
 			 
 				<li>
-					<a href="#internship">
+					<a href="#intership">
 						<span>Internship</span>
 					</a>
 				</li>
@@ -164,12 +164,12 @@
     
       <div class="post-list__item">
         <span class="item__title--big">
-          <a name="about">ABOUT</a>
+          <a>ABOUT</a>
         </span>
         
         <p>I am a third year undergraduate student in Department of Automation, <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, expecting to graduate in June 2019.</p>
 
-<p>My research interests include video analysis, robotic vision and general problems in computer vision. My current work focuses on dense detailed multi-label action detection tasks in untrimmed videos.</p>
+<p>My research interests include <strong>video analysis</strong>, <strong>robotic vision</strong> and general problems in <strong>computer vision</strong>. My current work focuses on dense detailed multi-label <strong>action detection</strong> tasks in untrimmed videos.</p>
 
 <hr />
 
@@ -178,12 +178,10 @@
         
       <div class="post-list__item">
         <span class="item__title--big">
-          <a name="education">EDUCATION</a>
+          <a>EDUCATION</a>
         </span>
         
-        
-
-<h4 id="shanghai-jiao-tong-university">SHANGHAI JIAO TONG UNIVERSITY</h4>
+        <p><font size=5>SHANGHAI JIAO TONG UNIVERSITY</font></br></p>
 
 <ul>
 <li>Major in Automation, School of Electronic Information and Electrical Engineering</li>
@@ -198,33 +196,29 @@
         
       <div class="post-list__item">
         <span class="item__title--big">
-          <a name="internship">INTERNSHIP</a>
+          <a>INTERNSHIP</a>
         </span>
         
-        
+        <p><font size=5>HIKVISION RESEARCH INSTITUTE</font></br>
+<font color="gray">Research Intern, Intelligent Algorithm Department</font></p>
 
-<h4 id="hikvision-research-institute">HIKVISION RESEARCH INSTITUTE</h4>
-
-<p><strong>Research Intern, Intelligent Algorithm Department</strong></p>
-
-<p>Over the last few years, while excellent results have been achieved in the field of static image understanding, there is still a long way to go for video understanding. I’m interested in this challenging topic and particularly interested in human activity detection tasks. I have done some related research work, listed as follows:</p>
+<p>I’ve recently been researching on visual analysis of human activity and have done some related work, listed as follows:</p>
 
 <ul>
-<li><p>Examined large-scale video datasets which depict a variety of complex human activities in untrimmed videos, including <strong>Charades</strong>, <strong>THUMOS</strong> and <strong>MultiTHUMOS</strong>. Chose MultiTHUMOS dataset for close scrutiny, considering the granularity of action categories, the density of annotations and the scale of the dataset (too large training sets require high performance equipment and may not be practical for research purposes).</p></li>
+<li><p>Examined large-scale video benchmark datasets which depict a variety of complex human activities in untrimmed videos, including <strong>Charades</strong>, <strong>THUMOS</strong> and <strong>MultiTHUMOS</strong>.</p></li>
 
 <li><p>Learned the basic ideas of existing approaches on MultiTHUMOS, including <strong>MultiLSTM</strong>, <strong>predictive-corrective networks</strong>, <strong>biLSTM</strong>, <strong>siLSTM</strong> and <strong>super-event</strong> presentation. Briefly compared their strengths and weaknesses. Summarized their respective innovations and contributions.</p></li>
 
-<li><p>Focused on modeling temporal relationships between activities. Thoroughly studied the algorithm details of <strong>sub-event</strong>, <strong>super-event</strong> and the latest <strong>TGM</strong> (Temporal Gaussian Mixture) approach, which obtained the best known performance. Carried out experiments after code implementation and gained results similar to the authors’ (<strong>33.4 mAP</strong> for I3D+super-event and <strong>?? mAP</strong> for I3D+super-event+TGM).</p></li>
+<li><p>Focused on modeling temporal relationships between activities. Thoroughly studied the algorithm details of <strong>sub-event</strong>, <strong>super-event</strong> and the latest <strong>TGM</strong> (Temporal Gaussian Mixture) approach, which obtained the best known performance. I&rsquo;ve been carrying out experiments after code implementation and have gained some results similar to the authors’ (<strong>34.4 mAP</strong> for I3D+super-event).</p></li>
 </ul>
 
 <p>Future works may include:</p>
 
 <ul>
-<li><p>Visualization works to explicitly demonstrate what the learned sub-events and super-events are.</p></li>
-
-<li><p>Analyzing correct and incorrect detection examples to gain insights and further improve the algorithms.</p></li>
-
-<li><p>Combination of multiple existing approaches to generate new ideas.</p></li>
+<li>Visualization works to explicitly demonstrate what the learned sub-events and super-events are.<br /></li>
+<li>Analyzing correct and incorrect detection examples to gain insights and further improve the algorithms.<br /></li>
+<li>Combination of multiple existing approaches to generate new ideas.<br /></li>
+<li>Reaching out to other datasets and approaches for other tasks in video analysis area, such as classification and captioning.</li>
 </ul>
 
 <hr />
@@ -236,34 +230,81 @@
         
       <div class="post-list__item">
         <span class="item__title--big">
-          <a name="projects">PROJECTS</a>
+          <a>PROJECTS</a>
         </span>
         
-        
+        <p><font size=5>Obstacle Detection for Vision Based Navigation for Autonomous Driving</font></br>
+<a href="http://robotics.sjtu.edu.cn/index.php?r=site/index">Autonomous Robot Lab, SJTU</a></p>
 
-<h4 id="obstacle-detection-for-vision-based-navigation">Obstacle Detection for Vision Based Navigation</h4>
 
-<p><font color="gray">Autonomous Robot Lab, SJTU</font></p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/4-pSmm8NlNI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-<p>Detecting the obstacles accurately and reliably is important for navigating the robot or autonomous vehicle. The latest sensor technologies and computer vision plays a key role in making this pragmatically realizable. Deep Neural Networks like Convolutional Neural Network (CNN) are widely used for object detection and segmentation algorithms.</p>
+
+<p>Detecting the obstacles accurately and reliably is important for navigating the robot or autonomous vehicle. The cost effective monocular camera sensor along with computer vision techniques plays a key role in making this pragmatically realizable. Deep Neural Networks like Convolutional Neural Network (CNN) are widely used for object detection and segmentation algorithms.</p>
 
 <ul>
-<li><p>Used the SegNet encoder-decoder architecture for pixel-wise semantic segmentation of the video frame. The network was trained and tested using CamVid dataset, achieving a test accuracy of 68.4%?</p></li>
+<li><p>Used the <strong>SegNet</strong> encoder-decoder architecture for pixel-wise <strong>semantic segmentation</strong> of the video frame. The network was trained and tested using CamVid dataset, achieving a test accuracy of <strong>68.4%</strong>.</p></li>
 
-<li><p>For road region contour detection step, the simple chain approximation method helped reduce the redundancy by saving only the essential points of the contour instead of storing every single point that constitutes the contour.</p></li>
+<li><p>For road region <strong>contour detection</strong> step, the <strong>simple chain approximation</strong> method helped reduce the redundancy by saving only the essential points of the contour instead of storing every single point that constitutes the contour.</p></li>
 
-<li><p>Used the convex hull instead of just using the contour in order to avoid missing out any obstacles that might appear very closer or partially over the road region.</p></li>
+<li><p>Used the <strong>convex hull</strong> instead of just using the contour in order to avoid missing out any obstacles that might appear very closer or partially over the road region.</p></li>
 
-<li><p>Plotted minimum fitting bounding rectangles over the vehicle and pedestrian regions using bounding box algorithm.</p></li>
-
-<li><p>Used the point polygon test to determine whether an obstacle (pedestrians or other vehicles) is inside the ROI, i.e., within the convex hull of the road region.</p></li>
+<li><p>Plotted minimum fitting bounding rectangles over the vehicle and pedestrian regions using <strong>bounding box</strong> algorithm. Used the <strong>point polygon test</strong> to determine whether an obstacle (pedestrians or other vehicles) is inside the ROI, i.e., within the convex hull of the road region.</p></li>
 </ul>
 
-<p>Future work can include integrating this methodology to the autonomous platform available in the campus, e.g., the logistic robot in our lab.</p>
+<p>Future work can include integrating this methodology to the autonomous platform available in the campus, e.g., the logistic robot in our lab.
+&nbsp;</p>
 
-<h4 id="object-counting">Object Counting</h4>
+<p>&nbsp;</p>
 
-<p><font color="gray">Digital Image Processing Course</font></p>
+<p>&nbsp;</p>
+
+<p><font size=5>Object Counting</font></br>
+<font color="gray">Digital Image Processing Course</font></p>
+
+<p><img src="https://raw.githubusercontent.com/Yingyan-Xu/Yingyan-Xu.github.io/master/dip.PNG" alt="Aaron Swartz" />
+The number of objects in an image is one of the basic information and is of great use. The tedious counting process is time consuming and should be replaced by machines. I tried out counting tasks for common block objects (e.g., apples, coins) using <strong>watershed segmentation</strong> and strip objects (e.g., matches, cigarettes) based on <strong>Hough line transform</strong>, then focused on automatic segmentation and counting in cell images and implemented a method as follows:</p>
+
+<ul>
+<li><p>Applied a <strong>threshold filter</strong> and <strong>morphological transform</strong> to reduce the noise. Detected the adhere cells based on the area and shape of the cells.</p></li>
+
+<li><p>The boundary information was used to generate the <strong>Freeman chain codes</strong>.</p></li>
+
+<li><p>Identified the <strong>concave points</strong> based on the relationship between the difference of the chain code and the curvature. Cell segmentation and counting were completed based on the characteristics of the concave points.
+&nbsp;</p></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font size=5>Smart Car Projects – Vision Based and Sensor Based</font></br>
+<font color="gray">Intelligent Mobile Robot Project</font></p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/dRoUKyuKtCY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>For a Raspberry Pi car robot with only camera sensors, one in the front and another in the back, implemented functions as follows:</p>
+
+<ul>
+<li>Automatic line following.</br></li>
+<li>Stop according to the stop sign.</br></li>
+<li>Reverse parking.</br></li>
+<li>Move forward following the arrow signs.<br /></li>
+</ul>
+
+<p>For a sensor based car robot equipped with three sensor modules including infrared distance sensors, line followers and collision sensors, implemented functions as follows:</p>
+
+<ul>
+<li>Automatic line following.</br></li>
+<li>Solve a maze.</br></li>
+<li>Remote control with Bluetooth.</br></li>
+</ul>
 
 <hr />
 
@@ -274,7 +315,7 @@
         
       <div class="post-list__item">
         <span class="item__title--big">
-          <a name="coursework">COURSEWORK</a>
+          <a>COURSEWORK</a>
         </span>
         
         

@@ -27,7 +27,8 @@ My research interests include video analysis, robotic vision and general problem
       <pubDate>Mon, 13 Aug 2018 00:07:11 +0800</pubDate>
       
       <guid>https://yingyan-xu.github.io/post/education/</guid>
-      <description> SHANGHAI JIAO TONG UNIVERSITY  Major in Automation, School of Electronic Information and Electrical Engineering Average Score: 90.4 / 100 Rank: 3 / 91
+      <description>SHANGHAI JIAO TONG UNIVERSITY
+ Major in Automation, School of Electronic Information and Electrical Engineering Average Score: 90.4 / 100 Rank: 3 / 91
   </description>
     </item>
     
@@ -38,8 +39,9 @@ My research interests include video analysis, robotic vision and general problem
       
       <guid>https://yingyan-xu.github.io/post/internship/</guid>
       <description>HIKVISION RESEARCH INSTITUTE Research Intern, Intelligent Algorithm Department
-Over the last few years, while excellent results have been achieved in the field of static image understanding, there is still a long way to go for video understanding. I’m interested in this challenging topic and particularly interested in human activity detection tasks. I have done some related research work, listed as follows:
- Examined large-scale video datasets which depict a variety of complex human activities in untrimmed videos, including Charades, THUMOS and MultiTHUMOS.</description>
+I’ve recently been researching on visual analysis of human activity and have done some related work, listed as follows:
+ Examined large-scale video benchmark datasets which depict a variety of complex human activities in untrimmed videos, including Charades, THUMOS and MultiTHUMOS.
+ Learned the basic ideas of existing approaches on MultiTHUMOS, including MultiLSTM, predictive-corrective networks, biLSTM, siLSTM and super-event presentation. Briefly compared their strengths and weaknesses.</description>
     </item>
     
     <item>
@@ -48,8 +50,8 @@ Over the last few years, while excellent results have been achieved in the field
       <pubDate>Sat, 11 Aug 2018 00:24:06 +0800</pubDate>
       
       <guid>https://yingyan-xu.github.io/post/projects/</guid>
-      <description>Obstacle Detection for Vision Based Navigation Autonomous Robot Lab, SJTU
-Detecting the obstacles accurately and reliably is important for navigating the robot or autonomous vehicle. The latest sensor technologies and computer vision plays a key role in making this pragmatically realizable. Deep Neural Networks like Convolutional Neural Network (CNN) are widely used for object detection and segmentation algorithms.
+      <description>Obstacle Detection for Vision Based Navigation for Autonomous Driving Autonomous Robot Lab, SJTU
+  Detecting the obstacles accurately and reliably is important for navigating the robot or autonomous vehicle. The cost effective monocular camera sensor along with computer vision techniques plays a key role in making this pragmatically realizable. Deep Neural Networks like Convolutional Neural Network (CNN) are widely used for object detection and segmentation algorithms.
  Used the SegNet encoder-decoder architecture for pixel-wise semantic segmentation of the video frame.</description>
     </item>
     
